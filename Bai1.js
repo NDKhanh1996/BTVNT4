@@ -11,7 +11,7 @@ function findMaxValue(f, a, b) {
 
 
 let f = x => x * x - 8 * x - 5; // Hàm số y = x^2 - 8x - 5
-let a = -1;
-let b = 2;
+let a = 5;
+let b = 99;
 let max = findMaxValue(f, a, b);
 console.log(`Giá trị lớn nhất của hàm số trong khoảng từ ${a} đến ${b} là: ${max}`);
